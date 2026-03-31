@@ -1,0 +1,22 @@
+name: getcourse-mcp
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      GETCOURSE_DOMAIN:
+        type: string
+        description: GetCourse account domain (e.g. myschool.getcourse.ru)
+      GETCOURSE_API_KEY:
+        type: string
+        description: GetCourse API secret key
+    required: [GETCOURSE_DOMAIN, GETCOURSE_API_KEY]
+  commandFunction: |
+    (config) => ({
+      command: "npx",
+      args: ["-y", "@theyahia/getcourse-mcp"],
+      env: {
+        GETCOURSE_DOMAIN: config.GETCOURSE_DOMAIN,
+        GETCOURSE_API_KEY: config.GETCOURSE_API_KEY,
+      },
+    })
