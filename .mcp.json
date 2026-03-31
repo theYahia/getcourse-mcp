@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "getcourse": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@theyahia/getcourse-mcp"
+      ],
+      "env": {
+        "GETCOURSE_DOMAIN": "YOUR_DOMAIN.getcourse.ru",
+        "GETCOURSE_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  }
+}
