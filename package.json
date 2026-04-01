@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/getcourse-mcp",
   "version": "1.1.0",
-  "description": "MCP server for GetCourse API -- users, deals.",
+  "description": "MCP server for GetCourse — online courses, students, deals (Russia)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -45,7 +45,9 @@
     "getcourse",
     "lms",
     "education",
-    "deals"
+    "deals",
+    "api",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
