@@ -1,3 +1,17 @@
+> ## 🗄 Репозиторий заархивирован
+>
+> Разработка переехала в **[theYahia/WWmcp](https://github.com/theYahia/WWmcp)** — монорепозиторий MCP-серверов для незападных API: СНГ, MENA, Африка, LATAM, Юго-Восточная Азия. Общее ядро `@theyahia/mcp-core`, единый CI, единый релизный конвейер.
+>
+> Актуальная версия того, что лежало здесь: [`servers/getcourse/`](https://github.com/theYahia/WWmcp/tree/main/servers/getcourse)
+>
+> Пакет в npm прежний — [`@theyahia/getcourse-mcp`](https://www.npmjs.com/package/@theyahia/getcourse-mcp), ставится и работает как раньше.
+> Здесь больше ничего не обновляется. Задачи и pull request'ы — в WWmcp.
+>
+> **Archived — development moved to [theYahia/WWmcp](https://github.com/theYahia/WWmcp),** a monorepo of MCP servers for non-Western APIs.
+> The current version of this package now lives at [`servers/getcourse/`](https://github.com/theYahia/WWmcp/tree/main/servers/getcourse).
+> The npm package [`@theyahia/getcourse-mcp`](https://www.npmjs.com/package/@theyahia/getcourse-mcp) is unchanged.
+> Please open issues and pull requests there.
+
 # @theyahia/getcourse-mcp
 
 MCP server for **GetCourse** LMS API. 3 tools for users, deals, and user creation.
